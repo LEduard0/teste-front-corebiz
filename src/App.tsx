@@ -2,6 +2,7 @@ import React from "react";
 
 import Header from "./components/Header";
 import Shelf from "./components/Shelf";
+import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
 import "./App.css";
@@ -11,7 +12,8 @@ function App() {
     <div className="App">
       <Header />
       <Shelf shelfTitle="Mais Vendidos" />
-      <Footer></Footer>
+      <Newsletter />
+      <Footer />
     </div>
   );
 }
