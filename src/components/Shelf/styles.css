@@ -1,0 +1,45 @@
+.shelfContainer {
+  padding: 0 7px;
+}
+
+.shelfTitle {
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin-left: 13px;
+  padding: 0 0 9px;
+  position: relative;
+  text-align: left;
+}
+
+.shelfTitle::after {
+  bottom: 0;
+  border-bottom: 3px solid #c0c0c0;
+  content: "";
+  height: 3px;
+  position: absolute;
+  left: 0;
+  width: 32px;
+}
+
+.slick-dots {
+  bottom: 20px;
+}
+
+.slick-dots li button,
+.slick-dots li {
+  height: 7px;
+  width: 7px;
+}
+
+.slick-dots li button:before {
+  color: #BDBDBD;
+  height: 7px;
+  width: 7px;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #f8475f;
+}
+
