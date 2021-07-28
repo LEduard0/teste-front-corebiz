@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./styles.css";
+
 const Newsletter: React.FC = () => {
   const handleSubmit = (e: any) => {
     e.preventDefault();
