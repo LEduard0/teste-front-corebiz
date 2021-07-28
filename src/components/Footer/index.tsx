@@ -7,6 +7,8 @@ import {
   VtexIcon,
 } from "../../assets/icons/icons";
 
+import "./styles.css";
+
 const Footer: React.FC = () => {
   return (
     <div className="footerContainer">
@@ -21,7 +23,7 @@ const Footer: React.FC = () => {
           </p>
         </div>
         <div className="footerContact">
-          <a href="/">
+          <a href="mailto:brasil@corebiz.ag">
             <MailIcon />
             Entre em contanto
           </a>
@@ -32,8 +34,8 @@ const Footer: React.FC = () => {
         </div>
         <div className="footerCompanys">
           <a href="https://www.corebiz.ag/pt/" target="_blank" rel="noreferrer">
-            <CorebizFooterIcon />
             Created by
+            <CorebizFooterIcon />
           </a>
           <a href="https://vtex.com/br-pt/" target="_blank" rel="noreferrer">
             <VtexIcon />
