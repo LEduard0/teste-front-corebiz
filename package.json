@@ -44,6 +44,8 @@
   },
   "devDependencies": {
     "@types/react-slick": "^0.23.5",
-    "react-slick": "^0.28.1"
+    "@types/react-star-rating-component": "^1.4.1",
+    "react-slick": "^0.28.1",
+    "react-star-rating-component": "^1.4.1"
   }
 }
