@@ -6,6 +6,8 @@ import Shelf from "./components/Shelf";
 import Newsletter from "./components/Newsletter";
 import Footer from "./components/Footer";
 
+import MinicartProvider from "./context/minicartContext";
+
 import "./App.css";
 
 function App() {
@@ -13,7 +15,9 @@ function App() {
     <div className="App">
       <Header />
       <Carousel />
-      <Shelf shelfTitle="Mais Vendidos" />
+      <MinicartProvider>
+        <Shelf shelfTitle="Mais Vendidos" />
+      </MinicartProvider>
       <Newsletter />
       <Footer />
     </div>

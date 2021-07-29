@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import StarRatingComponent from "react-star-rating-component";
 
+import { useMinicartProvider } from "../../context/minicartContext";
 import apiCorebiz from "../../services/apiCorebiz";
 
 import "./styles.css";
@@ -45,6 +46,7 @@ const slickSettings = {
       settings: {
         slidesToShow: 2,
         slidesToScroll: 2,
+        arrows: false,
       },
     },
   ],
@@ -52,6 +54,7 @@ const slickSettings = {
 
 const Shelf: React.FC<IShelfProps> = ({ shelfTitle }) => {
   const [product, setProducts] = useState<IproductList[]>();
+  const { addToCart } = useMinicartProvider();
 
   const formatPrices = (value: number) => {
     const price = value.toLocaleString("pt-br", {
@@ -108,7 +111,10 @@ const Shelf: React.FC<IShelfProps> = ({ shelfTitle }) => {
                         )}`
                       : null}
                   </span>
-                  <button className={"shelfAddToCart"} onClick={() => {}}>
+                  <button
+                    className={"shelfAddToCart"}
+                    onClick={() => addToCart(product[index])}
+                  >
                     Comprar
                   </button>
                 </div>

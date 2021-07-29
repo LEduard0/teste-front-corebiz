@@ -39,6 +39,24 @@
   width: 10%;
 }
 
+.headerMinicart {
+  position: relative;
+}
+
+.headerMinicart span {
+  background: #f8475f;
+  border-radius: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 10px;
+  height: 14px;
+  line-height: 14px;
+  position: absolute;
+  right: -16px;
+  top: -5px;
+  width: 14px;
+}
+
 .headerSearch {
   position: relative;
   width: 100%;

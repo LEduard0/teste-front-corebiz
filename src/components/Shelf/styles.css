@@ -143,6 +143,7 @@
   }
 
   .shelfAddToCart {
+    max-width: 125px;
     visibility: hidden;
   }
 
