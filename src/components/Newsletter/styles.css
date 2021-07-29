@@ -80,3 +80,45 @@
   max-width: 328px;
   width: 100%;
 }
+
+@media screen and (min-width: 1024px) {
+  .newsletterContainer form,
+  .newsletterContainer .newsletterDispatchedWrapper {
+    margin: 0 auto;
+    max-width: 1248px;
+  }
+
+  .newsletterTitleContainer {
+    margin-bottom: 16px;
+  }
+
+  .newsletterTitleContainer h4 {
+    text-align: center;
+  }
+
+  .newsletterWrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .newsletterWrapper div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 280px;
+  }
+
+  .newsletterWrapper input {
+    width: 280px;
+  }
+
+  .newsletterWrapper button {
+    margin: 0 0 0 8px;
+    max-width: 140px;
+  }
+
+  .newsletterWrapper input#email {
+    margin: 0 0 0 8px;
+  }
+}
