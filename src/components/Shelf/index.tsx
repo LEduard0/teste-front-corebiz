@@ -3,7 +3,6 @@ import Slider from "react-slick";
 import StarRatingComponent from "react-star-rating-component";
 
 import apiCorebiz from "../../services/apiCorebiz";
-import { flagIcon } from "../../assets/icons/icons";
 
 import "./styles.css";
 
