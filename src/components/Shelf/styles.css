@@ -1,5 +1,5 @@
 .shelfContainer {
-  padding: 0 7px;
+  padding: 16px 7px 50px;
 }
 
 .shelfTitle {
@@ -23,6 +23,72 @@
   width: 32px;
 }
 
+.shelfWrapper {
+  padding: 0 12px;
+}
+
+.shelfWrapper img {
+  height: 122px;
+  margin: 0 auto;
+  width: 132px;
+}
+
+.shelfProductName {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  min-height: 28px;
+  width: 100%;
+}
+
+.shelfPriceList {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  min-height: 22px;
+  text-align: center;
+  text-decoration-line: line-through;
+  width: 100%;
+}
+
+.shelfPrice {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  width: 100%;
+}
+
+.shelfInstallments {
+  color: #7a7a7a;
+  display: block;
+  font-family: "Nunito", sans-serif;
+  font-size: 11px;
+  line-height: 15px;
+  margin-top: 10px;
+  min-height: 15px;
+  text-align: center;
+}
+
+.shelfAddToCart {
+  background: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+  height: 36px;
+  margin-top: 9px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.shelfContainer .slick-dots {
+  bottom: -25px;
+}
+
 .slick-dots {
   bottom: 20px;
 }
@@ -34,7 +100,7 @@
 }
 
 .slick-dots li button:before {
-  color: #BDBDBD;
+  color: #bdbdbd;
   height: 7px;
   width: 7px;
 }
@@ -42,4 +108,3 @@
 .slick-dots li.slick-active button:before {
   color: #f8475f;
 }
-

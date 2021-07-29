@@ -27,7 +27,7 @@ interface IproductList {
 }
 
 const slickSettings = {
-  dots: false,
+  dots: true,
   infinite: true,
   speed: 500,
   slidesToShow: 4,
@@ -84,7 +84,7 @@ const Shelf: React.FC<IShelfProps> = ({ shelfTitle }) => {
             <div key={index} className={"shelfInnerContainer"}>
               <div className={"shelfWrapper"}>
                 <img src={imageUrl} alt="shelf product" />
-                {price < listPrice ? flagIcon : null}
+                <div className={price < listPrice ? "shelfFlag" : ""}></div>
                 <div className={"shelfInfo"}>
                   <span className={"shelfProductName"}>{productName}</span>
                   <StarRatingComponent
