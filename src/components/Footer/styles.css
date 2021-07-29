@@ -96,3 +96,23 @@
   color: #fff;
   margin: 0 20px;
 }
+
+@media screen and (min-width: 1024px) {
+  .footerWrapper {
+    align-items: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1248px;
+  }
+
+  .footerAddress h3 {
+    font-size: 20px;
+    line-height: 27px;
+  }
+
+  .footerAddress h3::after {
+    width: 45px;
+  }
+}
