@@ -54,3 +54,29 @@
   margin-top: 7px;
   width: 100%;
 }
+
+.newsletterDispatchedFirstTitle {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.newsletterDispatchedSecondTitle {
+  font-size: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.newsletterDispatchedButton {
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  height: 48px;
+  margin-top: 15px;
+  max-width: 328px;
+  width: 100%;
+}

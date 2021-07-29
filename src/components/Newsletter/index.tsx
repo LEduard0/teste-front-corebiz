@@ -60,7 +60,7 @@ const Newsletter: React.FC = () => {
             A partir de agora você receberá as novidade e ofertas exclusivas.
           </span>
           <button className="newsletterDispatchedButton" onClick={newRegister}>
-            Cadastrar novo e-maisl
+            Cadastrar novo e-mail
           </button>
         </div>
       ) : (
