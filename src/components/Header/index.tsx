@@ -24,8 +24,8 @@ const Header: React.FC = () => {
           </div>
           <div className={"headerAccount"}>
             <a href="/login">
-              Minha Conta
               <UserIcon />
+              Minha Conta
             </a>
           </div>
           <div className={"headerMinicart"}>
